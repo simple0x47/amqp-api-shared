@@ -1,0 +1,16 @@
+[package]
+name = "amqp-api-shared"
+version = "0.1.0"
+edition = "2021"
+description = "Shared code for the API server & client"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+[dependencies.serde]
+version = "1.0"
+features = ["derive"]
+
+[dependencies.serde_json]
+version = "1.0"
