@@ -1,6 +1,6 @@
-use crate::config::amqp_consume::AmqpConsume;
-use crate::config::amqp_qos::AmqpQos;
-use crate::config::amqp_queue::AmqpQueue;
+use crate::amqp_consume::AmqpConsume;
+use crate::amqp_qos::AmqpQos;
+use crate::amqp_queue::AmqpQueue;
 use lapin::options::{BasicAckOptions, BasicRejectOptions};
 use serde::{Deserialize, Serialize};
 

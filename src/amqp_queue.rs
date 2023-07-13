@@ -1,4 +1,4 @@
-use crate::config::amqp_queue_declare::AmqpQueueDeclare;
+use crate::amqp_queue_declare::AmqpQueueDeclare;
 use serde::{Deserialize, Serialize};
 
 #[derive(Deserialize, Serialize, Clone)]

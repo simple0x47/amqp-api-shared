@@ -1,4 +1,4 @@
-use crate::config::amqp_publish::AmqpPublish;
+use crate::amqp_publish::AmqpPublish;
 use serde::{Deserialize, Serialize};
 
 #[derive(Deserialize, Serialize, Clone)]

@@ -14,3 +14,6 @@ features = ["derive"]
 
 [dependencies.serde_json]
 version = "1.0"
+
+[dependencies.lapin]
+version = "2.2"

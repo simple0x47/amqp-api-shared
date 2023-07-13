@@ -42,7 +42,7 @@ pub enum RequestResultErrorKind {
     InsufficientStorage,
     LoopDetected,
     NotExtended,
-    NetworkAuthenticationRequired
+    NetworkAuthenticationRequired,
 }
 
 #[derive(Deserialize, Serialize, Debug)]

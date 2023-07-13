@@ -1,5 +1,3 @@
-pub mod request_result_error;
-pub mod request_result;
 pub mod amqp_consume;
 pub mod amqp_input_api;
 pub mod amqp_input_api_consumer;
@@ -13,3 +11,6 @@ pub mod amqp_queue_declare;
 pub mod amqp_request;
 pub mod api;
 pub mod api_consumer;
+pub mod error;
+pub mod request_result;
+pub mod request_result_error;
